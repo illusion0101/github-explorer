@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #16161a;
+    color: #fffffe;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.heading {
+    margin-top: 2vh;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.search-bar {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.search-text {
+    outline: none;
+    border: none;
+    background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+#search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#search-icon:hover {
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    width: 60vw;
+}
+
+.row-item {
+    width: 30vw;
+    padding: 2vw;
+}
+
+.profile-picture {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture img {
+    width: 20vw;
+    border-radius: 1vw;
+    max-width: 230px
+}
+
+.left {
+    text-align: right;
+}
+
+.repos {
+    margin-inline: auto;
+    text-align: center;
+    width: 60vw;
+}
+
+.repos .row-item-heading {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.row-item-heading {
+    font-size: 0.8em;
+    color: #b4b4b4;
+    font-weight: 600;
+}
+
+.row-item-content {
+    font-size: 1.2em;
+}
+
+.repo-item {
+    padding: 2vw;
+    font-size: 0.8em;
+    /* border-bottom: solid #b4b4b4 1px; */
+}
+
+.repo-item-item {
+    padding: 0.5vw;
+}
+
+.repo-item-heading {
+    font-size: 0.7em;
+    color: #b4b4b4;
+    font-weight: 600;
+}
+
+.repo-item-content {
+    font-size: 0.9em;
+}
+
+.username .row-item-content:hover {
+    text-decoration: underline;
+}
+
+.repo-item-item-title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.repo-item-item-title a:hover {
+    text-decoration: underline;
+}
+
+.row-content-details {
+    font-weight: 600;
+} 

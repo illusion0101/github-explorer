@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property='og:title'  content='GitHubExplorer'>
+    <meta name='twitter:title' content='GitHubExplorer'>
+    <meta property='og:url'  content='https://illusion0101.github.io/github-explorer/'>
+    <meta name='twitter:url' content='https://illusion0101.github.io/github-explorer/'>
+    <meta name='description'         content="A tool to look up GitHub users">
+    <meta property='og:description'  content="A tool to look up GitHub users">
+    <meta name='twitter:description' content="A tool to look up GitHub users">
+    <meta property="og:image"  content="https://illusion0101.github.io/ip-address-tracker/images/icon.png">
+    <meta name="twitter:image" content="https://illusion0101.github.io/ip-address-tracker/images/icon.png">
+    <title>GitHubExplorer</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/illusion0101/ip-address-tracker/main/images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="heading">GitHubExplorer</div>
+
+    <div class="search-bar">
+        <input type="text" class="search-text" placeholder="the username goes here">
+        <a href="javascript:renderData();"><span id="search-icon" class="material-symbols-outlined search-icon">
+            search
+        </span></a>
+    </div>
+
+    <div class="results">
+        <div class="row">
+            <div class="row-item profile-picture">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-item left username">
+                <div class="row-item-heading">USERNAME</div>
+                <div class="row-item-content row-content-details"><a href="" target="_blank"></a></div>
+            </div>
+            <div class="row-item created">
+                <div class="row-item-heading">JOINED</div>
+                <div class="row-item-content row-content-details"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-item left followers">
+                <div class="row-item-heading">FOLLOWERS</div>
+                <div class="row-item-content row-content-details"></div>
+            </div>
+            <div class="row-item following">
+                <div class="row-item-heading">FOLLOWING</div>
+                <div class="row-item-content row-content-details"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-item repos">
+                <div class="row-item-heading">REPOSITORIES</div>
+                <div class="row-item-content">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
